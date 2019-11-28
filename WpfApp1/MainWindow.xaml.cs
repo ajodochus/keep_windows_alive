@@ -61,7 +61,7 @@ namespace WpfApp1
 
             txt_out.Text =
                "hours: " + hour.ToString()
-               + "\minutes: " + min.ToString()
+               + "\nminutes: " + min.ToString()
                + "\nseconds: " + sec.ToString();
         }
         public enum EXECUTION_STATE : uint
